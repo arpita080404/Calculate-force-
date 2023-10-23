@@ -1,0 +1,13 @@
+ #include <stdio.h>
+float force(int m);
+int main() {
+    int m;
+    printf("Mass of body =\n");
+    scanf("%d",&m);
+    printf ("force exerted by earth is %f m/s²",force(m));
+   return 0;
+}
+float force(int m){
+float force= m*9.8;
+    return force;
+}
