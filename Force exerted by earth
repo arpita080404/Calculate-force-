@@ -4,7 +4,7 @@ int main() {
     int m;
     printf("Mass of body =\n");
     scanf("%d",&m);
-    printf ("force exerted by earth is %f m/s²",force(m));
+    printf ("force exerted by earth is %.2f N",force(m));
    return 0;
 }
 float force(int m){
